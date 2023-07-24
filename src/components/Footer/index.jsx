@@ -5,7 +5,7 @@ import { StyledFooter } from './style'
 function Footer() {
   return (
     <StyledFooter>
-      Footer
+      <p>Desenvolvido por: <a href="https://daniela-moreira.vercel.app">Daniela Moreira</a></p>
     </StyledFooter>
   )
 }

@@ -4,7 +4,7 @@ import Head from '../utils/head';
 
 function Contato() {
   return (
-    <>
+    <div className='content'>
       <CardContact 
       title='Entre em contato'
       photo={photo}
@@ -13,7 +13,7 @@ function Contato() {
       address='Rua X, 2'
     />
     <Head title="Produtos | Contato" desc="Página para contato"/>
-    </>
+    </div>
   )
 }
 

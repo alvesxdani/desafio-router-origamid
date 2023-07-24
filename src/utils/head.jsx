@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import { useEffect } from "react"
 
-const Head = (props) => {
+const Head = ({ title, desc}) => {
   useEffect(() => {
-    document.title = props.title;
-    document.querySelector('meta[name="description"]').setAttribute('content', props.desc)
-  }, [props])
+    document.title = title;
+    document.querySelector('meta[name="description"]').setAttribute('content', desc)
+  }, [title, desc])
 
   return <></>
 }

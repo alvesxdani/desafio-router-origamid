@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
 
 body, html {
   width: 100%;
-  height: 100%;
   font: 13px 'Calibri', sans-serif;
 }
 
@@ -43,6 +42,41 @@ h1 {
     transform: initial;
     opacity: initial;
   }
+}
+
+.produto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.produto .fotos img {
+  margin-bottom: 2rem;
+}
+
+.produto .preco {
+  padding: 0.5rem;
+  background: #92140C;
+  color: #fff;
+  border-radius: 5px;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+.produto .desc_produto {
+  line-height: 2rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  margin: 0 auto;
+  min-height: calc(100vh + 10rem);
+}
+
+.content {
+  flex: 1;
 }
 `
 

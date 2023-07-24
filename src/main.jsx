@@ -1,10 +1,11 @@
 import React from 'react'
+import GlobalStyle from './GlobalStyles'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Produtos from './routes/Produtos'
 import Contato from './routes/Contato'
-import GlobalStyle from './GlobalStyles'
+import Produto from './routes/Produto.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: '/contato',
         element: <Contato />
+      },
+      {
+        path: '/produto/:id',
+        element: <Produto />
       }
     ]
   },
