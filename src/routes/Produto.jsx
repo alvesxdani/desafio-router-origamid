@@ -23,8 +23,6 @@ function Produto() {
       }
     }
     fetchData(`https://ranekapi.origamid.dev/json/api/produto/${id}`);
-
-    console.log(data);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
