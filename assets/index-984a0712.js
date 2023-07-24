@@ -203,7 +203,7 @@ width: 100%;
     }
   }
 
-`;function R0({photo:e,title:t,preco:n,id:r}){return j.jsx(P0,{children:j.jsxs(fh,{to:`/produto/${r}`,children:[j.jsx("img",{src:e,alt:t}),j.jsx("h2",{children:t}),j.jsxs("p",{children:["R$ ",n]})]})})}const _0=Fn.div`
+`;function R0({photo:e,title:t,preco:n,id:r}){return j.jsx(P0,{children:j.jsxs(fh,{to:`desafio-router-origamid/produto/${r}`,children:[j.jsx("img",{src:e,alt:t}),j.jsx("h2",{children:t}),j.jsxs("p",{children:["R$ ",n]})]})})}const _0=Fn.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
